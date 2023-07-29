@@ -34,7 +34,7 @@ p{
     width: 650px;
     margin-top: 60px;
 }
-.product-intro button{
+.clickable-button{
     color: #fff;
     border: none;
     text-transform: uppercase;
@@ -42,11 +42,77 @@ p{
     border-radius: 22px;
     background-image: linear-gradient(#038AF7, #74c8f5);
     padding: 15px 30px;
+    margin-top: 30px;
     cursor: pointer;
 }
-.product-intro button:active{
+.clickable-button:active{
     transform: translateY(2px);
 }
 .product-image img{
     width: 80%;
+}
+.banner-card{
+    position: relative;
+}
+.banner-card img{
+    max-width: 100%;
+    height: auto;
+}
+.banner-girl img{
+    position: absolute;
+    width: 338px;
+    height: 536px;
+    bottom: 0;
+    left:10%;
+}
+.banner-text{
+    position: absolute;
+    width: 540px;
+    height: 246px;
+    top: 30%;
+    right: 0;
+    padding: 20px 0;
+    color: #575757;
+}
+.banner-text h2{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.recipies-area{
+    margin: 30px auto;
+    width: 706px;
+    height: 159px;
+}
+.recipies-details{
+    text-align: center;
+}
+.recipies-title h2{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #575757;
+}
+.recipies-box-area{
+    display: flex;
+    justify-content: space-evenly;
+}
+.recipies-box{
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+    width: 560px;
+    height: 510px;
+    padding: 10px;
+}
+.recipies-box-img img{
+    width: 550px;
+    height: 308px;
+    margin-bottom: 30px;
+}
+.recipies-box-details{
+    width: 534px;
+    height: 140px;
+}
+.recipies-box-details h2{
+    margin-bottom: 20px;
 }
