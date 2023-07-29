@@ -98,7 +98,7 @@ p{
     justify-content: space-evenly;
 }
 .recipies-box{
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 10px grey;
     width: 560px;
     height: 510px;
@@ -115,4 +115,33 @@ p{
 }
 .recipies-box-details h2{
     margin-bottom: 20px;
+}
+.followers-area{
+    width: 1230px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #f5e9e9;
+}
+.followers-area h1{
+    color: #000;
+    font-size: 40px;
+}
+.footer-area{
+    width: 1440px;
+    height: 220px;
+    text-align: center;
+    background: #0B0D17;
+    padding-top: 80px;
+}
+.footer-title{
+    padding-bottom: 30px;
+    color: #575757;
+
+}
+.footer-about{
+    color: white;
 }
